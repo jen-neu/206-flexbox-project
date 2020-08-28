@@ -41,10 +41,9 @@ html {
 hr {
     display: block;
     height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
+    border: 1px;
+    border-right: 1px solid #fff;
     margin: 1em 0;
-    padding: 0;
 }
 
 /*
@@ -125,6 +124,9 @@ body {
   font-size: 1.2em;
   height: auto;
   width: 30%;
+  border-right: solid white .1em;
+  border-width: thin;
+  padding-right: 1em;
 }
 
 .wrapper span {
